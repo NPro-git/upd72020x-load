@@ -74,6 +74,7 @@ u_int lookup_rompar(const u_int rominfo) {
         case 0x00EF3011: // W25X10BV
         case 0x00EF3012: // W25X20BV
         case 0x00EF3013: // W25X40BV
+	case 0x00EF4014:
             return 0x700;
         case 0x00202010: // M25P05-A
         case 0x00202011: // M25P10-A
